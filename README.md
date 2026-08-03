@@ -75,8 +75,6 @@ Case c = new Case(
 );
 insert c;
 
-Test.setCreatedDate(c.Id, DateTime.now().addHours(-10));
-```
 
 ### 4. Trigger the evaluation
 ```apex
@@ -100,14 +98,3 @@ The project includes Apex tests that cover:
 - idempotent escalation creation
 - queueable execution behavior
 - trigger-driven evaluation paths
-
-## Why this is a strong portfolio project
-This project demonstrates practical Salesforce engineering skills that are relevant to real enterprise implementations:
-- scalable asynchronous processing
-- business-rule configuration through metadata
-- operational reliability
-- clean service-oriented structure
-- test coverage and maintainability
-
-## Notes
-This is a strong example for interviews, technical portfolios, and Salesforce architecture discussions because it shows not just basic Apex coding, but also how to design a service that is extensible, robust, and aligned with enterprise patterns.
